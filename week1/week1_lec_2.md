@@ -8,6 +8,7 @@
 ## Membership Query
 Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
 - Is 2 a prime number?
+  
   Let us frame this as a membership query. "Is 2 a member of the set of prime numbers?".
   This is a decision problem to illustrate how all decision problems can easily be framed as membership queries.
 
