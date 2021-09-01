@@ -83,3 +83,8 @@ ex. {0,01,11} is a member of the power set.
     000 -> 0  
     001 -> 0  
 
+For all such members a presence string can be calculated. Assume that all these presenc strings are countable as well. So there must exist a bijection from the set N to this set of presence strings. Now using Cantor's diagonalisation argument,
+
+For creating the new presence strings, flip the bit from a previously existing presence string to be sure that our newly created presence string is different from all the already existing presence strings.
+
+There is always a new presence string, which is unaccounted for, because each presence string was assigned a natural number. So { 0,1 }* is uncountable.
