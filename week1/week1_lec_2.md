@@ -59,4 +59,25 @@ To do so, we map f: N -> {0, 1}* by listing the strings in short-lex order.
 and so on...  
 For any binary string, there exists a single natural number that maps to it.
 Therefore we have a bijective mapping, proving that {0, 1}* is countable.
-This proves out statement.  
+This proves our statement.  
+
+## Part 2 : The number of computer problems are uncountable
+The total number of problems is the cardinality of the power set of {0, 1}*.  
+Therefore we neet to prove that this power set is uncountable.
+
+We will use cantor's diagonalization method for doing so.  
+Each member of the power set is a bitstring.  
+Go through {0, 1}* and assign 1 to it if the bitstring we get is a part of the power set, and 0 otherwise.  
+  
+ex. {0,01,11} is a member of the power set.
+
+   emptystring -> 0 (not present in {0,10,11})
+   0 -> 1           ()is present in {0,10,11})
+   1 -> 0
+   00 -> 0
+   01 -> 1
+   10 -> 0
+   11 -> 1
+   000 -> 0
+   001 -> 0
+
