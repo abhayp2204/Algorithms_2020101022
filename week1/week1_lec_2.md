@@ -49,8 +49,8 @@ this statement while considering only C programs.
 A C program can be represented as a binary string. So we  must show that {0, 1}* is countable.
 To do so, we map f: N -> {0, 1}* by listing the strings in short-lex order.
 1 -> (0 length string)
-$2 \rightarrow 0$
-3 -> 1
+2 -> 0  
+3 -> 1  
 4 -> 00
 5 -> 01
 6 -> 10
