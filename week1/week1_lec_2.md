@@ -40,3 +40,7 @@ Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
 - There are only countably many computational programs.
 - Hence there must exist problems for which there are no programs.
 
+Let us now prove the above statements.
+
+## Theorem
+The set of finite length bit strings {0, 1}* is countable.
