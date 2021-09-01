@@ -88,3 +88,21 @@ For all such members a presence string can be calculated. Assume that all these 
 For creating the new presence strings, flip the bit from a previously existing presence string to be sure that our newly created presence string is different from all the already existing presence strings.
 
 There is always a new presence string, which is unaccounted for, because each presence string was assigned a natural number. So { 0,1 }* is uncountable.
+
+## Example of an unsolvable problem
+Consider the problem of deciding whether a program will run forever or halt.  
+In order to prove that such a program cannot exist, Turing used proof of contradiction.  
+Let us assume such a program does exist. Let us call it HaltChecker.  
+HaltChecker returns "halts" if the input program terminates, otherwise it returns "never".  
+  
+Consider another program Reverser.  
+Reverser takes an input program and passes it to HaltChecker.  
+If HaltChecker returns "halts" it runs an infinite loop.  
+Otherwise it returns immediately.
+
+Now what happens if we input Reverser itself into Reverser?  
+HaltChecker analyzes Reverser and say it decides that it halts.  
+Then Reverser runs an infinite loop and doesn't halt.  
+This contradicts HaltChecker's result.  
+The same thing happens if HaltChecker decides that Reverser does not halt.  
+With this, Alan TUring proved that there ecist problems which cannot be solved.
