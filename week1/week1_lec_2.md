@@ -42,5 +42,21 @@ Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
 
 Let us now prove the above statements.
 
-## Theorem
-The set of finite length bit strings {0, 1}* is countable.
+## Part 1 : The number of computer programs are countable
+Every computer program can be rewritten to work in C. Thus there is no loss in generality if we prove
+this statement while considering only C programs.
+
+A C program can be represented as a binary string. So we  must show that {0, 1}* is countable.
+To do so, we map f: N -> {0, 1}* by listing the strings in short-lex order.
+1 -> (0 length string)
+2 -> 0
+3 -> 1
+4 -> 00
+5 -> 01
+6 -> 10
+7 -> 11
+8 -> 000
+and so on...
+For any binary string, there exists a single natural number that maps to it.
+Therefore we have a bijective mapping, proving that {0, 1}* is countable.
+This proves out statement.
