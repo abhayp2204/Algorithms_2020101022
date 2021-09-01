@@ -7,7 +7,7 @@
 
 A computational problem is a membership query language.
 
-**Axioms of Computation:**
+# Axioms of Computation:
 1. Machines are not omnipresent:
    It takes time to retrieve data.
 
