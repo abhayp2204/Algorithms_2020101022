@@ -5,7 +5,11 @@
 4. If not, prove that we cannot do better.
 ---
 
-A computational problem is a membership query language.
+## Membership Query
+Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
+- Is 2 a prime number?
+  Let us frame this as a membership query. "Is 2 a member of the set of prime numbers?".
+  This is a decision problem to illustrate how all decision problems can easily be framed as membership queries.
 
 ## Axioms of Computation
 1. Machines are not omnipresent:
@@ -22,3 +26,4 @@ A computational problem is a membership query language.
 - There are uncountably many computational problems.
 - There are only countably many computational programs.
 - Hence there must exist problems for which there are no programs.
+
