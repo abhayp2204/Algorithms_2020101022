@@ -10,7 +10,7 @@ Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
 - Is 2 a prime number?
   
   Let us frame this as a membership query. "Is 2 a member of the set of prime numbers?".
-  
+
   This is a decision problem to illustrate how all decision problems can easily be framed as membership queries.
 
 - Is a graph connected?
@@ -22,6 +22,7 @@ Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
   Given the input list [3,0,1,2] is [1,2,3,0] a member of the set [0,1,2,3]. The output is 0 since it is not.
 
   Hence, even a sorting problem can be framed as a membership query.
+---
 
 ## Axioms of Computation
 1. Machines are not omnipresent:
@@ -34,7 +35,7 @@ Is this thing a member of a certain subset? Output 1 if yes, otherwise no.
    A finite length code only exerts a finite amount of control.
 ---
 
-## Prove that there are computational problems that computers cannot solve
+## Countability and Computability
 - There are uncountably many computational problems.
 - There are only countably many computational programs.
 - Hence there must exist problems for which there are no programs.
